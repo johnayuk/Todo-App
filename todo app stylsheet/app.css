@@ -1,0 +1,111 @@
+#p{
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.deletebtn{
+       
+    background-color: rgb(158, 194, 196);
+    border: none;
+}
+.editbtn{
+    margin-right: 3% !important;
+    background-color: rgb(4, 4, 7);
+    color: #ffffff;
+    border: none;
+}
+
+.listItem{
+    /* border: 1px ridge darkblue; */
+    box-sizing: border-box;
+    width: 29rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 8px gray;
+    margin:auto;
+    margin-top: 1%;
+    height: 7vh;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+
+.card-body{
+    border: none;
+}
+.card-header{
+    height: 35vh;
+    background-color: rgb(101, 101, 255);
+}
+.search-holder{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    width: 40rem;
+    margin: auto;
+}
+
+#filterInput{
+    width: 30em;
+    height: 3.4em;
+    border: none;
+}
+
+#filterInput:focus,#txt:focus{
+outline:none;
+}
+
+#txt:focus{
+    outline:none;
+    }
+
+    #add{
+        border-radius: 6px;
+    }#txt{
+        border-radius: 6px;
+        box-shadow: 3px 3px 8px gray;
+    }
+
+@media(max-width:500px){
+    .search-holder{
+        height: 10vh;
+        width: 1rem;
+        margin: 0%;
+    }
+    .fa{
+        margin-left: 8em;
+    }
+    #filterInput{
+        width: 9em;
+        height: 3.4em;
+        border: none;
+    }
+    .listItem{
+        width: 18rem;
+        /* position: absolute; */
+        margin-right:80!important;
+        top: 9%;
+        height: 5vh;
+    }
+    .deletebtn{
+       
+        background-color: rgb(158, 194, 196);
+        border: none;
+    }
+    .editbtn{
+        margin-right: 3% !important;
+        background-color: rgb(4, 4, 7);
+        color: #ffffff;
+        border: none;
+    }
+    .search-holder{
+        background-color: rgb(255, 255, 255);
+        height: 10vh;
+        width: 20rem;
+        margin: auto;
+    }
+}
