@@ -78,14 +78,14 @@ outline:none;
     @media(min-width:768px){
         .deletebtn{
             position: absolute;
-            left: 36rem;
+            left: 35rem;
             margin-top: 3%;
             background-color: rgb(158, 194, 196);
             border: none;
         }
         .editbtn{
             position: absolute;
-            left: 33rem;
+            left: 32rem;
             margin-top: 3%;
             background-color: rgb(4, 4, 7);
             color: #ffffff;
@@ -97,14 +97,14 @@ outline:none;
         }
     }
 
-@media(max-width:500px){
+@media(max-width:478px){
     .search-holder{
         height: 10vh;
         width: 1rem;
         margin: 0%;
     }
     .fa{
-        margin-left: 6em;
+        margin-left: 28%;
     }
     #filterInput{
         width: 7em;
@@ -121,15 +121,15 @@ outline:none;
     .deletebtn{
         position: absolute;
         left: 16rem;
-        margin-top: 2%;
+        margin-top: 1%;
         background-color: rgb(158, 194, 196);
         border: none;
     }
     .editbtn{
         position: absolute;
-        left: 13.5rem;
-        margin-top: 2%;
-        background-color: rgb(4, 4, 7);
+        left: 13rem;
+        margin-top: 1%;
+        background-color: rgb(4, 4, 5);
         color: #ffffff;
         border: none;
     }
