@@ -33,8 +33,8 @@ function createTodo(input){
     let deletebutton = document.createElement('button')
 
 // create className
-editbutton.className = 'editbtn  float-right'
-deletebutton.className = 'deletebtn float-right'
+editbutton.className = 'editbtn  mr-auto'
+deletebutton.className = 'deletebtn mr-auto'
 divtag.className = 'listItem'
 
     //create textnode 

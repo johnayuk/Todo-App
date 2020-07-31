@@ -9,19 +9,23 @@ body{
 }
 
 .deletebtn{
-       
+    position: absolute;
+    left: 46rem;
+    margin-top: 0.5%;
     background-color: rgb(158, 194, 196);
     border: none;
 }
 .editbtn{
-    margin-right: 3% !important;
+    position: absolute;
+    left: 43rem;
+    margin-top: 0.5%;
     background-color: rgb(4, 4, 7);
     color: #ffffff;
     border: none;
 }
 
 .listItem{
-    /* border: 1px ridge darkblue; */
+  
     box-sizing: border-box;
     width: 29rem;
     background-color: rgb(255, 255, 255);
@@ -70,6 +74,29 @@ outline:none;
         box-shadow: 3px 3px 8px gray;
     }
 
+
+    @media(min-width:768px){
+        .deletebtn{
+            position: absolute;
+            left: 36rem;
+            margin-top: 3%;
+            background-color: rgb(158, 194, 196);
+            border: none;
+        }
+        .editbtn{
+            position: absolute;
+            left: 33rem;
+            margin-top: 3%;
+            background-color: rgb(4, 4, 7);
+            color: #ffffff;
+            border: none;
+        }
+        .card-header{
+            height: 20vh;
+            background-color: rgb(101, 101, 255);
+        }
+    }
+
 @media(max-width:500px){
     .search-holder{
         height: 10vh;
@@ -77,27 +104,31 @@ outline:none;
         margin: 0%;
     }
     .fa{
-        margin-left: 8em;
+        margin-left: 6em;
     }
     #filterInput{
-        width: 9em;
+        width: 7em;
         height: 3.4em;
         border: none;
     }
     .listItem{
-        width: 18rem;
-        /* position: absolute; */
-        margin-right:80!important;
-        top: 9%;
+        margin:0%;
+        width: 16rem;
+       margin-top: 1em;margin-right: 15em;
         height: 5vh;
+      
     }
     .deletebtn{
-       
+        position: absolute;
+        left: 16rem;
+        margin-top: 2%;
         background-color: rgb(158, 194, 196);
         border: none;
     }
     .editbtn{
-        margin-right: 3% !important;
+        position: absolute;
+        left: 13.5rem;
+        margin-top: 2%;
         background-color: rgb(4, 4, 7);
         color: #ffffff;
         border: none;
@@ -105,7 +136,28 @@ outline:none;
     .search-holder{
         background-color: rgb(255, 255, 255);
         height: 10vh;
-        width: 20rem;
-        margin: auto;
+        width: 16rem;
+        margin: 5%;
     }
+    /* .list{
+        margin-right: 3%;
+    } */
 }
+
+@media (min-width: 992px) { 
+    .deletebtn{
+        position: absolute;
+        left: 44rem;
+        margin-top: 0.1%;
+        background-color: rgb(158, 194, 196);
+        border: none;
+    }
+    .editbtn{
+        position: absolute;
+        left: 41rem;
+        margin-top: 0.1%;
+        background-color: rgb(4, 4, 7);
+        color: #ffffff;
+        border: none;
+    }
+ }
